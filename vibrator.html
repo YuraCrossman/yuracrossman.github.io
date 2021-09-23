@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Вибратор</title>
+  </head>
+  <body>
+    <button type="button" name="button" onclick="vib" style="align-items: center;display: flex;margin: auto;margin-bottom: auto;width: 150px;height: 150px;align-content: center;justify-content: center;">Нажми на меня</button>
+    <script>
+      function vib() {
+        window.navigator.vibrate([600,100,5000]);
+      }
+    </script>
+  </body>
+</html>
