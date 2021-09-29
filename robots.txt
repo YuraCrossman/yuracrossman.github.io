@@ -1,0 +1,7 @@
+User-agent: *
+Sitemap: http://https://yuracrossman.github.io/sitemap.xml
+Disallow: /blue-trey-new
+Disallow: /css
+Disallow: /js
+Disallow: /images/
+Allow: /blue-trey
